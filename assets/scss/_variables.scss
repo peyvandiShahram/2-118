@@ -1,0 +1,56 @@
+// vuetify variables
+$body-font-family: IRANSans, tahoma;
+$font-size-root: 14px;
+$label-font-size: 16px;
+$material-light: (
+  'background': #f9f9f9,
+  'text': (
+    'primary': #4d4d4d,
+  )
+);
+$card-text-letter-spacing: 0px;
+$btn-letter-spacing: 0;
+$radio-margin-right: 0;
+// my variables
+$box-shadow: 0px 2px 0px 0px rgba(169, 183, 190, 0.15);
+$bshadow2: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+
+$bradius: 8px;
+$bradius2: 20px;
+$border-color: #dbdbdb;
+$primary: #132b73;
+$text-color: #656565;
+$title-color: #404040;
+$c-green: #3ab54a;
+$c-red: #c2272d;
+$c-orange: #da9233;
+$c-gray: #e5e5e5;
+// vuetify
+.v-application ul, .v-application ol {
+  padding-left: 0px;
+}
+.v-input--radio-group.v-input--radio-group--row .v-radio {
+  margin-left: 16px;
+}
+.container {
+  padding: 0px 40px;
+}
+a {
+  color: $text-color;
+}
+.v-expansion-panel-content__wrap {
+  padding: 0px !important;
+}
+@media only screen and (max-width: 600px) 
+  {
+  .container {
+    max-width: 100%;
+  }
+}
+
+.m-0{
+  margin: 0;
+}
+.p-0{
+  padding: 0;
+}
